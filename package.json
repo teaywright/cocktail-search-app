@@ -1,0 +1,38 @@
+{
+  "name": "individualprojects_setf-teaywright",
+  "version": "1.0.0",
+  "description": "IndividualProjectsSetF",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CU-CSCI-3308-Fall-2021/individualprojects_setf-teaywright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CU-CSCI-3308-Fall-2021/individualprojects_setf-teaywright/issues"
+  },
+  "homepage": "https://github.com/CU-CSCI-3308-Fall-2021/individualprojects_setf-teaywright#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.1",
+    "pgtools": "^0.3.2",
+    "query-string": "^7.0.1"
+  }
+}
